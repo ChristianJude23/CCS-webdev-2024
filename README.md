@@ -2,7 +2,7 @@
 Development Start: 25/03/2024
 
 
- ![image](https://github.com/ChristianJude23/CCS-webdev-2024/assets/152279955/b10fd330-ee11-430f-9398-5a0f7d950109)
+![image](https://github.com/ChristianJude23/CCS-webdev-2024/assets/152279955/b10fd330-ee11-430f-9398-5a0f7d950109)
 
 
 Color Palette:
