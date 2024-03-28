@@ -14,8 +14,7 @@ body {
     justify-content: space-around;
     gap: 450px;
     background-color: #67C6E3;
-    border-bottom: solid 5px #ffde00;;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .Title img {
@@ -25,8 +24,13 @@ body {
 
 /* Navigation */
 .nav-bar {
+    position: sticky;
+    top: 0px;
+    border-top: solid 5px #ffde00;
+    border-bottom: solid 2px #333333;
     background-color: #DFF5FF;
     padding: 12px 10px;
+    margin-top: 0;
     text-transform: uppercase;
 }
 
@@ -75,7 +79,7 @@ footer {
     font-family: Arial;
     font-size: 14px;
     line-height: 1.1;
-    border-top: solid 5px #ffde00;;
+    border-top: solid 5px #ffde00;
 }
 
 .footer-container {
@@ -108,3 +112,4 @@ footer {
     background-color: #DFF5FF;
     padding: 5px 0;
 }
+

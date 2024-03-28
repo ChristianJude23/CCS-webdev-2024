@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* I know that I can combine all the necessary div's just to add style but I'm doing it the hard way :> */
+
 body {
     font-family: Arial;
     line-height: 1.3;
@@ -13,8 +15,7 @@ body {
     justify-content: space-around;
     gap: 450px;
     background-color: #67C6E3;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .Title img {
@@ -22,7 +23,12 @@ body {
     height: 100px;
 }
 
+/* Navigation Bar */
 .nav-bar {
+    position: sticky;
+    top: 0px;
+    border-top: solid 5px #ffde00;
+    border-bottom: solid 2px #333333;
     background-color: #DFF5FF;
     padding: 12px 10px;
     text-transform: uppercase;
@@ -33,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 5px;
+    gap: 20px;
 }
 
 .nav-link a:link, .nav-bar a:visited {
@@ -47,13 +53,15 @@ body {
 .nav-link a:hover, .nav-bar a:active {
     border-bottom: solid 3px #378CE7;
 }
+/* Navigation Bar End*/
 
+/* college catalogue */
 .college-catalogue {
     background-color: #67C6E3;
     border: solid 2px #333333;
     border-radius: 10px;
     padding: 5px 0;
-    margin: 0 100px;
+    margin: 20px 100px;
 }
 
 .college-catalogue h2 {
@@ -81,4 +89,200 @@ body {
     padding-bottom: 10px;
     margin: 20px 50px;
 }
+/* college catalogue End*/
 
+/* History college */
+.history-college {
+    background-color: #67C6E3;
+    border: solid 2px #333333;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin: 100px 100px;
+}
+
+.history-college h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.history-college-content {
+    background-color: #DFF5FF;
+    border: solid 1px #333333;
+    border-radius: 10px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    margin: 20px 50px;
+}
+
+.history-college-content p {
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+/* History of College End*/
+
+/* Key Objectives */
+.key-objectives {
+    background-color: #67C6E3;
+    border: solid 2px #333333;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.key-objectives h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.key-objectives-content {
+    background-color: #DFF5FF;
+    border: solid 1px #333333;
+    border-radius: 10px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    margin: 20px 50px;
+}
+
+.key-objectives li {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+/* Key Objectives End*/
+
+/* Program educational objectives */
+.program-edu-objectives {
+    background-color: #67C6E3;
+    border: solid 2px #333333;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.program-edu-objectives h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.program-edu-objectives-content {
+    background-color: #DFF5FF;
+    border: solid 1px #333333;
+    border-radius: 10px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    margin: 20px 50px;
+}
+
+.program-edu-objectives-content h3, li {
+    margin-left: 30px;
+}
+/* Program educational objectives End*/
+
+/* Student Outcomes */
+.student-outcomes {
+    background-color: #67C6E3;
+    border: solid 2px #333333;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.student-outcomes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.student-outcomes-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: sticky;
+    top: 70px;
+    border: solid 2px #333333;
+    border-radius: 20px;
+    background-color: #DFF5FF;
+    width: 350px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.student-outcomes-nav a:link, .student-outcomes a:visited{
+    font-size: 18px;
+    text-transform: uppercase;    
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: solid 3px #333333;
+}
+
+.student-outcomes-nav a:active, .student-outcomes-nav a:hover{
+    border-bottom: solid 3px #378CE7;
+}
+
+.student-outcomes-content {
+    background-color: #DFF5FF;
+    border: solid 1px #333333;
+    border-radius: 10px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    margin: 30px 50px;
+}
+
+.student-outcomes-content h3, li {
+    font-size: 18px;
+    line-height: 2;
+    margin-left: 30px;
+}
+
+
+
+/* Footer */
+footer {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.1;
+    border-top: solid 5px #ffde00;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #67C6E3;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.footer-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-contacts {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+/* Footer Copyright */
+.copyright {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #DFF5FF;
+    padding: 5px 0;
+}
